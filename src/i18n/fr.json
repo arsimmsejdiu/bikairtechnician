@@ -1,0 +1,231 @@
+{
+  "bike": {
+    "status": {
+      "ALL": "Tous",
+      "AVAILABLE": "Disponible",
+      "USED": "Utilisé",
+      "BOOKED": "Reservé",
+      "MAINTENANCE": "Maintenance",
+      "STOLEN": "Volé",
+      "NOT_FOUND": "Introuvable",
+      "PREPARATION": "En préparation",
+      "WAIT_DEPLOY": "En attente de déploiement",
+      "INCIDENT": "Incident",
+      "DAMAGED": "Endommagé",
+      "RENTAL": "Location",
+      "WAIT_MISSING_PART": "En attente de pièces",
+      "BATTERY": "En attente de batterie",
+      "PAUSED": "En Pause"
+    },
+    "tags": {
+      "ALL": "Tous",
+      "PRIORITY": "Priorité",
+      "WORKSHOP": "Retour atelier",
+      "TO_SPOT": "A remettre sur spot",
+      "CONTROL": "A contrôler",
+      "CONTROLLED": "Controlé",
+      "COLLECT": "A collecter",
+      "COLLECTED": "Collecté",
+      "BATTERY_LOW": "Batterie à Changer",
+      "EXPERIMENTATION": "Experimentation"
+    }
+  },
+  "permissions": {
+    "bluetooth_location": {
+      "title": "Permission d'accès à la caméra",
+      "message": "L'application nécessite un accès à votre bluetooth pour se connecter au cadenas.",
+      "button_positive": "Autoriser",
+      "button_negative": "Annuler",
+      "button_neutral": "Plus tard"
+    },
+    "camera_location": {
+      "title": "Permission d'accès à la caméra",
+      "message": "L'application nécessite l'accès à votre caméra pour prendre des photos et scanner les QR code.",
+      "button_positive": "Autoriser",
+      "button_negative": "Annuler",
+      "button_neutral": "Plus tard",
+      "bike_number": "Numéro de vélo"
+    }
+  },
+  "roles": {
+    "SUPER_ADMIN": "Administrateur",
+    "TECHNICIAN": "Technicien",
+    "COLLECTOR": "Collecteur",
+    "CONTROLLER": "Contrôleur"
+  },
+  "user": {
+    "connection": "Connexion",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "login": "Connexion",
+    "incorrect_identifiers": "Identifiants incorrects",
+    "incorrect_password": "Mot de passe incorrect",
+    "fill_all_the_fields": "Veuillez remplir correctement tout les champs",
+    "server_error": "Erreur serveur"
+  },
+  "bottom_tabs": {
+    "map": "Carte",
+    "list_of_bikes": "Liste des vélos",
+    "add_bike": "Ajouter vélo",
+    "logout": "Déconnexion",
+    "bike_info": "Infos vélo",
+    "status": "Status",
+    "scanner": "Scanner",
+    "report": "Rapport",
+    "report_select": "Rapport sélectionné",
+    "qr_reading": "Lecture QR"
+  },
+  "bike_list": {
+    "bikes": "Vélos",
+    "bike": "Vélo",
+    "bike_name": "Nom du vélo",
+    "battery": "Batterie",
+    "state": "Etat"
+  },
+  "status_screen": {
+    "select_status": "Sélectionner un statut",
+    "select_tag": "Selectionner un tag",
+    "select_city": "Selectionner un ville"
+  },
+  "bike_info_screen": {
+    "bluetooth_on": "Veuillez allumer votre bluetooth",
+    "geolocation_on": "Veuillez allumer votre géolocalisation",
+    "open_already": "Le cadenas est déjà ouvert.",
+    "close_already": "Le cadenas est déjà fermé.",
+    "error_connecting_lock": "Erreur lors de la connection au cadenas",
+    "error_handling_lock": "Erreur lors de la manipulation du cadenas",
+    "loading": "Chargement...",
+    "update_address": "Mettre à jour l'adresse",
+    "update_position": "Mettre à jour la position",
+    "change_bike_components": "Changer les composants du vélo",
+    "change_lock": "Changer le cadenas",
+    "change_tracker": "Changer le traqueur",
+    "change_status_bike": "Modifier le statut du vélo",
+    "control_information": "Informations contrôles",
+    "no_control": "Aucun contrôle",
+    "no_review": "Aucune remontée client",
+    "date_of_last_inspection": "Date du dernier contrôle",
+    "date_of_last_review": "Date de la dernière remontée client",
+    "technician": "Technicien",
+    "last_move": "Dernier deplacement",
+    "battery_changed": "Batterie changée",
+    "picked_up": "A ramasser",
+    "damaged_missing_parts": "Pièces endommagées ou manquantes",
+    "no_data_last_report": "Aucune données dans le dernier rapport",
+    "no_data_last_review": "Aucune données dans la dernière remontée client",
+    "comment": "Observations",
+    "customer_feedback_information": "Informations de la remontée client",
+    "customer_feedback": "Remontée client",
+    "opening_closing": "Ouverture / Fermeture",
+    "button_control_bike": "Cliquez sur le bouton pour contrôler le vélo",
+    "no_access_control_button": "Vous n'avez pas les accès nécessaires pour effectuer un contrôle.",
+    "control": "Contrôle",
+    "opening": "Ouverture",
+    "closing": "Fermeture",
+    "autonomy": "Autonomie",
+    "yes": "Oui",
+    "no": "Non",
+    "last_image": "Dernière photo client",
+    "no_image": "Pas d'image du dernier voyage",
+    "last_gps": "Dernière position GPS client",
+    "no_gps": "Pas de données GPS",
+    "last_tracker": "Dernière position tracker",
+    "no_tracker": "Pas de données tracker"
+  },
+  "qr-reader-screen": {
+    "authorize_camera": "Veuillez autoriser l'appareil photo dans les paramètres de l'application."
+  },
+  "add_bike_screen": {
+    "all_fields_required": "Tout les champs sont requis !",
+    "bike": "Vélo",
+    "bike_name": "Nom du vélo",
+    "city": "Ville",
+    "message_success": "Vélo créé avec succès",
+    "error_create_bike": "Erreur lors de la création d'un vélo"
+  },
+  "update_screen": {
+    "update_necessary": "Une mise à jour s’impose !",
+    "benefit_last_functionalities": "Mettez à jour votre application Bik’air pour bénéficier des toutes dernières fonctionnalités !",
+    "benefit_last_version": "Pour mettre à jour, veuillez ouvrir l'application \"App Tester\" et installer la dernière version."
+  },
+  "scanner_screen": {
+    "bike_no_response": "Le vélo ne correspond pas!"
+  },
+  "ReportButton": {
+    "padlock": "Cadenas",
+    "uid": "UID",
+    "claim_code": "Claim Code",
+    "version": "Version",
+    "validate": "Valider",
+    "required_fields": "Tout les champs sont requis !",
+    "error_configuration": "Erreur de configuration, veuillez relancer l'application...",
+    "error_modification_tracker": "Erreur lors de la modification du traqueur",
+    "padlock_updated": "Cadenas mis à jour",
+    "error_modifying_padlock": "Erreur lors de la modification du cadenas",
+    "error": "Erreur",
+    "success": "Succès"
+  },
+  "report_select_screen": {
+    "role_type_select": "Sélectionner le type de rôle à utiliser",
+    "return_bike_list": "Retourner à la liste des vélos"
+  },
+  "report_screen": {
+    "save_photo": "Sauvegarder des photos",
+    "send_report": "Envoi du rapport...",
+    "report_saved": "Rapport sauvegardé!",
+    "error_sending_report": "Erreur lors de l'envoi du rapport"
+  },
+  "validate_add_bike_screen": {
+    "validate": "Valider",
+    "validation": "Validation",
+    "bike_name": "Nom du vélo",
+    "city": "Ville"
+  },
+  "set_bike_tracker_screen": {
+    "error_configuration": "Erreur de configuration, veuillez relancer l'application...",
+    "error_modification_tracker": "Erreur lors de la modification du traqueur",
+    "updated_tracker": "Traqueur mis à jour",
+    "error": "Erreur",
+    "success": "Succès",
+    "tracker": "Traqueur",
+    "imei": "IMEI",
+    "mac": "MAC"
+  },
+  "marker_details_bike": {
+    "bike": "Vélo",
+    "state": "Etat",
+    "battery": "Batterie restante",
+    "loading": "Chargement...",
+    "details": "Détails",
+    "spot": "Spot"
+  },
+  "my_modal": {
+    "opening": "Ouverture en cours...",
+    "closing": "Fermeture en cours..."
+  },
+  "question_flow": {
+    "incident_step": {
+      "comment_placeholder": "Ajouter un commentaire"
+    },
+    "comment_step": {
+      "comment_placeholder": "Ajouter un commentaire"
+    },
+    "photo_step": {
+      "authorize_camera": "Veuillez autoriser l'appareil photo dans les paramètres de l'application.",
+      "take_photo": "Prendre une photo"
+    },
+    "repaired_step": {
+      "select_all": "Sélectionner tout"
+    },
+    "spot_step": {
+      "required": "Ce champ est requis",
+      "comment_placeholder": "Ajouter un commentaire"
+    }
+  },
+  "app_camera": {
+    "camera_authorize": "Veuillez autoriser la caméra"
+  },
+  "forms": {
+    "search_bike_place_holder": "Taper le nom du vélo"
+  }
+}
